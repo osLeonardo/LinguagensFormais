@@ -1,12 +1,4 @@
-S
-2S
-21S
-210A
-2102S
-21020A
-210200A
-210200
-
+Exemples to copy/paste in the API (same as the 'examples' endpoint response):
 
 {
   "n": [ "S", "A" ],
@@ -16,4 +8,11 @@ S
     "A": [ "0A", "1S", "2S", "" ]
   },
   "s": "S"
+}
+
+{
+  "n": [ ],
+  "t": [ ],
+  "p": { },
+  "s": ""
 }

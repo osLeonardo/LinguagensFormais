@@ -19,6 +19,15 @@ namespace LinguagensFormais.Services
                 },
                 S = "S"
             };
+            
+            examples["example 02"] = new Grammar
+            {
+                N = new HashSet<string> { },
+                T = new HashSet<string> { },
+                P = new Dictionary<string, List<string>>
+                { },
+                S = ""
+            };
 
             return examples;
         }
