@@ -1,3 +1,7 @@
+
+URL GitHub Repository: https://github.com/osLeonardo/LinguagensFormais
+
+
 Exemples to copy/paste in the API (same as the 'examples' endpoint response):
 
 example 01:
@@ -26,6 +30,7 @@ example 02:
 
 example 03:
 {
+
   "n": [ "S", "A", "B" ],
   "t": [ "0", "1" ],
   "p": {
