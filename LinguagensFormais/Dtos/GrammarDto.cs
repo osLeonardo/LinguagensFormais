@@ -4,7 +4,7 @@ namespace LinguagensFormais.Dtos
 {
     public class Grammar
     {
-        [Description("Não Terminais")]
+        [Description("Não terminais")]
         public HashSet<string> N { get; set; }
 
         [Description("Terminais")]
