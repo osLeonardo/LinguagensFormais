@@ -60,6 +60,20 @@ namespace LinguagensFormais.Services
                 },
                 S = "S"
             };
+            
+            examples["example 05"] = new Grammar
+            {
+                N = new HashSet<string> { "S", "A", "B", "C" },
+                T = new HashSet<string> { "", "a", "b" },
+                P = new Dictionary<string, List<string>>
+                {
+                    { "S", new List<string> { "AB", "CA" } },
+                    { "A", new List<string> { "a", "b" } },
+                    { "B", new List<string> { "BC", "b" } },
+                    { "C", new List<string> { "AB", "" } }
+                },
+                S = "S"
+            };
 
             return examples;
         }
